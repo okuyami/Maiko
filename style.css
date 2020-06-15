@@ -49,6 +49,9 @@ li{
     border-color: rgba(236, 79, 119,0);
 }
 
+.collapsing{
+  -webkit-transition: height 0.5s ease;
+}
 
  .sns{
      text-align: center;
