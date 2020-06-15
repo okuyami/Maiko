@@ -15,7 +15,7 @@ body {
 }
 
 .title-small{
-  width: 300px;
+  width: 250px;
 }
 
 .title-big{
@@ -59,17 +59,13 @@ li{
   color:  #ec4f77;
   font-size: 25px;
   padding: 12px;
-  margin: 20px;
+  margin: 30px 5px 5px 5px;
   height: 50px;
   width: 50px;
   background-color: rgba(255, 214, 20,1);
   border-radius: 50%;
   }
   
-.sns li{
- }
-
-
 
 
 footer{
