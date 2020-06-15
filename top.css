@@ -2,3 +2,14 @@
   padding-top: 200px;
   width: 100%;
   }
+  
+  
+   .heading{
+  	margin: 50px 0 20px 0;
+  	background-color: #ec4f77;
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 

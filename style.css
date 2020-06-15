@@ -16,7 +16,6 @@ body {
 
 .title-small{
   width: 300px;
-
 }
 
 .title-big{
@@ -53,10 +52,10 @@ li{
 
 
  .sns{
-
+     text-align: center;
   }
   
-  .sns i{
+.sns i{
   color:  #ec4f77;
   font-size: 25px;
   padding: 12px;
@@ -66,6 +65,9 @@ li{
   background-color: rgba(255, 214, 20,1);
   border-radius: 50%;
   }
+  
+.sns li{
+ }
 
 
 
