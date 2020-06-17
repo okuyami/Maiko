@@ -62,7 +62,7 @@
 .iframe-live {
   position: relative;
   width: 100%;
-  padding-top: 170%;
+  padding-top: 100%;
   overflow:auto; 
   -webkit-overflow-scrolling:touch;
   border:2px solid #; 
