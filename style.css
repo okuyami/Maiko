@@ -100,9 +100,30 @@ footer p{
      height: 100%;
 }
 
+.button{
+  font-family: 'Rammetto One', cursive;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 12px;
+  background-color: #ec4f77;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.button:hover {
+  color: #ffd614;
+}
 
 
-/*ボタンのCSS指定ここから*/
+
+
+/*ボタンのCSS指定ここから
 
 .confetti-button {
   font-family: 'Rammetto One', cursive;
@@ -131,7 +152,7 @@ footer p{
   height: 100%;
   left: -20%;
   z-index: -1000;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.2s;
   background-repeat: no-repeat;
 }
 
@@ -162,12 +183,12 @@ footer p{
 
 .confetti-button.animate:before {
   display: block;
-  animation: topBubbles ease-in-out 0.75s forwards;
+  animation: topBubbles ease-in-out 0.5s forwards;
 }
 
 .confetti-button.animate:after {
   display: block;
-  animation: bottomBubbles ease-in-out 0.75s forwards;
+  animation: bottomBubbles ease-in-out 0.5s forwards;
 }
 
  @keyframes
