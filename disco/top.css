@@ -1,0 +1,86 @@
+
+.topimg{
+  padding-top: 140px;
+  width: 100%;
+  }
+  
+.bioimg{
+  width: 100%;
+  padding-left: 30px; 
+  padding-right: 30px; 
+}  
+  
+.heading{
+  	margin: 50px 0 20px 0;
+  	background-color:  #64c0b5;
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+  
+.heading2{
+    margin: 140px 10px 10px 10px;
+  	background-color: #64c0b5;
+    font-family: 'Rammetto One', cursive;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  
+.text {
+  font-size: 1rem;	
+  padding: 20px;
+  margin: 20px 0;
+}  
+
+.bio-text{
+    display: inline-block;
+    text-align: left;
+   font-size: 1rem;	
+   margin: 20px;
+   padding: 20px;
+
+}
+  
+.border{
+  margin-left: 15px;
+  margin-right: 15px;
+  border : solid 2px #64c0b5;
+  border-radius: 30px;
+}
+
+.tw-border{
+  border : solid 2px #64c0b5;
+  border-radius: 30px;
+
+}
+
+.space{
+  margin-top: 60px;
+  border : solid 1px #fff8ee;
+}
+
+
+/*インラインフレーム(LIVE・Blog)*/
+.iframe-live {
+  position: relative;
+  width: 100%;
+  padding-top: 170%;
+  overflow:auto; 
+  -webkit-overflow-scrolling:touch;
+  border:2px solid #; 
+}
+.iframe-live iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border:none;
+    display:block;
+}
+/*インラインフレーム(LIVE・Blog)*/

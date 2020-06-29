@@ -31,30 +31,30 @@
   }
   
   
-.prof-text {
+.text {
   font-size: 1rem;	
   padding: 20px;
   margin: 20px 0;
 }  
 
 .bio-text{
-    display: inline-block;
-    text-align: left;
-   font-size: 1rem;	
-   margin: 20px;
-   padding: 20px;
+  display: inline-block;
+  text-align: left;
+  font-size: 1rem;	
+  margin: 20px;
+  padding: 20px;
 
 }
   
 .border{
   margin-left: 15px;
   margin-right: 15px;
-  border : solid 2px #64c0b5;
+  border : solid thick #64c0b5;
   border-radius: 30px;
 }
 
 .tw-border{
-  border : solid 2px #64c0b5;
+  border : solid 3px #64c0b5;
   border-radius: 30px;
 
 }
@@ -84,3 +84,113 @@
     display:block;
 }
 /*インラインフレーム(LIVE・Blog)*/
+
+
+/*ポップアップここから*/
+.popup_wrap input {
+  display: none;
+}
+
+.popup_overlay {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(100, 192, 181, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0s 0.5s;
+  transform: scale(0);
+}
+
+.popup_trigger {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.popup_content {
+  position: relative;
+  align-self: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 30px 30px 15px;
+  box-sizing: border-box;
+  background: rgba(255, 214, 20,0.8);
+  line-height: 1.4em;
+  transition: 0.5s;
+  border-radius: 50px;
+  border: solid 5px #ec4f77 ;
+}
+
+
+.close_btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.popup_wrap input:checked ~ .popup_overlay {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s;
+}
+
+.open_btn {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin:60px auto;
+  padding: 8px 8px;
+  color: #fff;
+  background:;
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(236, 79, 119, 0.8);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s ease;
+
+}
+.open_btn:hover{
+    background:#000;
+    color:#fff;
+    transition: .3s ease;
+}
+
+  .cdtext {
+    display: inline-block;
+    text-align: left;
+  }
+ 
+a.cd_btn {
+	position: relative;
+	display: block;
+	width: 160px;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	background: #ec4f77;
+	border-bottom: 2px solid #00838F;
+	border-radius: 4px;
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+}
+a.cd_btn:active {
+	border-bottom: 2px solid #26C6DA;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+/*ポップアップココまで*/
